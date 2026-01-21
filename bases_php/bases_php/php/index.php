@@ -8,12 +8,13 @@
 </head>
 
 <body>
-    <h1>Binevenido</h1>
+    <h1>Bienvenido</h1>
     <?php
     $usuario = "Alejandro";
-    echo "<p>Hola $usuario </p>";
+    echo "<p>Hola $usuario</p>";
     ?>
     <p>Hola <?= $usuario ?></p>
+
 </body>
 
 </html>
